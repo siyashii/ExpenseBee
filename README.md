@@ -1,16 +1,14 @@
 # ExpenseBee 🐝
 
-ExpenseBee is a simple expense-tracking application built with Python and SQLite.
+A simple command-line expense tracker built with Python and SQLite.
 
 ## Features
 
-* Add new expenses
-* View saved expenses
-* Update expense amounts
-* Delete expenses
-* Calculate monthly spending
-* Calculate spending by category
+* Add, view, update, and delete expenses
+* Calculate monthly spending totals
+* View spending totals by category
 * Validate expense amounts
+* Store expense records in a local SQLite database
 
 ## Technologies Used
 
@@ -21,13 +19,19 @@ ExpenseBee is a simple expense-tracking application built with Python and SQLite
 
 1. Install Python.
 2. Download or clone this repository.
-3. Open the project folder in a terminal.
-4. Run:
+3. Open a terminal in the project folder.
+4. Run the application:
 
-   `python main.py`
+   ```bash
+   python main.py
+   ```
 
-The application creates its local database automatically when initialized.
+The application initializes its local database automatically when started.
 
-## Note
+## What I Learned
 
-ExpenseBee is a beginner-friendly command-line project. Each user can maintain their own local expense database.
+This project helped me practise Python functions, loops, conditional statements, input validation, and SQL database operations.
+
+## Privacy Note
+
+Expense records are stored locally in the SQLite database created when the application runs. The database is excluded from this repository.
